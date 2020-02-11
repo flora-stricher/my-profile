@@ -1,0 +1,92 @@
+body {
+ font-size: 16px;
+ color:black;
+ background-color:#EAD7D1  ;
+}
+
+h1,h2,h3,h4,h5 {
+	font-size: 22px;
+
+}
+
+
+h2,h3,h4,h5{
+	color:#C89F9C;
+	}
+
+ul {
+	list-style-type: none;
+	
+	}
+
+.container {
+	box-shadow: 0px:10px: 30px rgba(10,10,10, 0.1);
+	border-radius: 5px;
+	padding: 15px;
+	background-color:#706677 ;
+	text-align: center;
+	margin: 20px auto;
+	width: 700px;
+	padding: 10px;
+	border:1px rgba(0, 0, 0, 0.1);
+	border: 1px solid black;
+	}
+
+
+
+#banniere_img {
+	width: 100%;
+	background-image: url(images/coucherdesoleil.jpg);
+	border-radius: 11px;
+	opacity: 0.65;
+
+	}
+
+
+
+.image-circle{
+	border-radius: 50%;
+	width:150px;
+	height:auto;
+}
+
+
+.card-white{
+	background-color: white;
+	padding: 30px;
+	border: 1px solid black;
+	margin: 10px;
+	border-radius:5px;
+}
+
+
+
+.btn-pink{
+	text-align: center;
+	border: 1px solid black;
+	text-decoration: none;
+	border:1px rgba(0, 0, 0, 0.1);
+	box-shadow:  0px:10px: 30px rgba(10,10,10, 0.1);
+	border-radius: 5px;
+	background-color: #C89F9C;
+	padding: 5px;
+	color: white;
+	margin:5px;
+}
+
+.btn-pink:hover {
+	background-color:#EAD7D1 ;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+	 }
+
+@media (max-width: 560px) {
+	.container {
+		width: 300px;
+	}
+}
+
